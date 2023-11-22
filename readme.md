@@ -1,16 +1,16 @@
-Os princípios SOLID são um conjunto de cinco princípios de design de software que visam criar sistemas mais compreensíveis, flexíveis e sustentáveis.
+The SOLID principles are a set of five software design principles aimed at creating more comprehensible, flexible, and sustainable systems.
 
-1. **Princípio da Responsabilidade Única (SRP):**
-   - Uma classe deve ter apenas um motivo para mudar, ou seja, deve ter uma única responsabilidade no sistema.
+Single Responsibility Principle (SRP):
+A class should have only one reason to change, meaning it should have a single responsibility in the system. This principle encourages designing classes with a distinct and singular purpose.
 
-2. **Princípio do Aberto/Fechado (OCP):**
-   - Entidades de software (classes, módulos, funções) devem ser abertas para extensão, mas fechadas para modificação. Isso significa que você pode adicionar novos recursos sem alterar o código existente.
+Open/Closed Principle (OCP):
+Software entities (classes, modules, functions) should be open for extension but closed for modification. This implies that new features can be added without altering existing code.
 
-3. **Princípio da Substituição de Liskov (LSP):**
-   - Objetos de uma classe base devem poder ser substituídos por objetos de uma classe derivada sem afetar a corretude do programa. Em outras palavras, as subclasses devem ser substituíveis por suas classes base sem alterar o comportamento do programa.
+Liskov Substitution Principle (LSP):
+Objects of a base class should be replaceable with objects of a derived class without affecting the correctness of the program. In other words, subclasses should be substitutable for their base classes without changing program behavior.
 
-4. **Princípio da Segregação de Interface (ISP):**
-   - Uma classe não deve ser forçada a implementar interfaces que ela não utiliza. Isso evita que uma classe tenha métodos que não fazem sentido para ela.
+Interface Segregation Principle (ISP):
+A class should not be compelled to implement interfaces it does not use. This prevents a class from having methods that are irrelevant to its functionality.
 
-5. **Princípio da Inversão de Dependência (DIP):**
-   - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações. Além disso, abstrações não devem depender de detalhes, mas detalhes devem depender de abstrações.
+Dependency Inversion Principle (DIP):
+High-level modules should not depend on low-level modules; both should depend on abstractions. Additionally, abstractions should not depend on details, but details should depend on abstractions. This principle promotes the use of abstractions, such as interfaces or abstract classes, to decouple higher-level and lower-level modules for increased flexibility and maintainability.
