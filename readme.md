@@ -1,4 +1,4 @@
-Os princípios SOLID representam um conjunto fundamental de diretrizes para o desenvolvimento de software que promove a criação de sistemas mais robustos e flexíveis.
+Os princípios SOLID representam um conjunto fundamental de diretrizes para o desenvolvimento de software que promove a criação de sistemas mais robustos e flexíveis. 
 
 1. **Princípio da Responsabilidade Única (SRP):**
    - Este princípio destaca a importância de uma classe ter uma única responsabilidade no sistema. Isso significa que cada classe deve ter apenas um motivo para ser modificada. Ao aderir ao SRP, o código torna-se mais compreensível e fácil de manter, pois as mudanças relacionadas a uma funcionalidade específica são isoladas em uma única classe.
